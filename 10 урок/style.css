@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: Jost, arial, sans-serif;
+    margin: 0 ;
+    padding: 0 ;
+}
+body {
+    background: #3A201F;
+    padding-top: 10vh;
+    color: #ffffff;
+}
+.main_image_wrapper img {
+    width: 100vw;
+}
+.description_wrapper {
+    height: 75vh;
+}
+.description_wrapper img {
+    float: left;
+    height: 75vh;
+    padding: 10vh 5vw;
+}
+.description_wrapper div {
+    color: #ffffff;
+    line-height: 150%;
+    padding-top: 20vh;
+    font-size: 24px;
+}
+.description_wrapper ul {
+    list-style-position: inside;
+    padding-left: 20px;
+}
+.bill_wrapper img {
+    animation: 3s run linear infinite;
+    height: 16vh;
+}
+@keyframes run {
+    from {
+        transform: translateX(-10vw) rotate(0);
+    }
+    to {
+        transform: translateX(100vw) rotate(360deg);
+    }
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
